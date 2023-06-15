@@ -1,0 +1,129 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+.nav {
+  text-align: right;
+  font-size: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #f5afe3;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+  padding-top: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos da seção de destaque (hero) */
+#hero {
+  background-image: url(mulher-trabalho-escritorio.jpg);
+  padding: 200px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Estilos da seção de vagas */
+#job-listings {
+  background-color: #f5afe3;
+  padding: 40px 0;
+}
+
+#job-listings h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#job-listings ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#job-listings li {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#job-listings li h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#job-listings li p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.candidatar {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.linha { 
+height: 3px;
+border: none;
+background: rgb(255, 255, 255);
+background: linear-gradient(90deg, rgb(243, 162, 225) 0%, #b7198f 50%, rgba(243, 162, 225) 100%);
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #f5afe3;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+}
